@@ -239,3 +239,38 @@ header {
 .sd_4 {
   background: #6c0345;
 }
+
+/* HAKKIMDA */
+
+.inner_about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.child_about {
+  flex-basis: 46%;
+  margin-bottom: 30px;
+}
+
+.about_img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.about_img img {
+  border-radius: 50%;
+}
+
+.about_highlight {
+  color: #24caac;
+  margin: 10px 0;
+  display: inline-block;
+}
+.about_highlight:hover {
+  text-decoration: underline;
+}
