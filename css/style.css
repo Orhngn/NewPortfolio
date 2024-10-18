@@ -183,3 +183,59 @@ header {
 .child_courses .detail ul li {
   color: gold;
 }
+
+/* BAŞARILAR */
+
+.inner_achivement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.child_achivement {
+  flex-basis: 40%;
+}
+
+.child_achivement img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.child_achivement2 {
+  flex-basis: 46%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.single_detail {
+  flex-basis: 48%;
+  padding: 40px 32px;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.single_detail:hover {
+  transform: scale(1.05);
+}
+.sd_1 {
+  background: #d10363;
+  margin-bottom: 20px;
+}
+.sd_2 {
+  background: #8e3e63;
+  margin-bottom: 20px;
+}
+.sd_3 {
+  background: #c40c0c;
+}
+.sd_4 {
+  background: #6c0345;
+}
