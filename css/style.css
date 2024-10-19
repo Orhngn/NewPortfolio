@@ -16,7 +16,7 @@ img {
   width: 100%;
 }
 section {
-  padding: 100px 0;
+  padding: 72px 0;
   background: #122e44;
 }
 .section_title {
@@ -273,4 +273,146 @@ header {
 }
 .about_highlight:hover {
   text-decoration: underline;
+}
+
+/* İLETİŞİM */
+
+.inner_contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.child_contact {
+  flex-basis: 45%;
+}
+
+.child_contact form {
+  padding: 50px 40px;
+  background: #2f363e;
+  border-radius: 8px;
+}
+.child_contact form input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background: #24292d;
+  border: none;
+  resize: none;
+  border-radius: 24px;
+  transition: 0.3s ease-in-out;
+  color: #fff;
+  font-weight: 900;
+}
+
+.child_contact form input,
+textarea:focus {
+  color: #fff;
+}
+.child_contact form input:focus {
+  letter-spacing: 1.5px;
+}
+.child_contact form textarea:focus {
+  letter-spacing: 1.5px;
+}
+
+.child_contact form input:last-child {
+  margin-bottom: 0;
+  background: #24caac;
+  border: 1px solid #24caac;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.child_contact form input:last-child:hover {
+  background: transparent;
+  color: #fff;
+}
+
+/* FOOTER */
+#footer {
+  background: #143752;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer-section {
+  width: 22%;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section form {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-section ul li a:hover {
+  color: #00d1a0;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #00d1a0;
+}
+
+.footer-section form input {
+  padding: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 6px;
+
+  margin-bottom: 12px;
+  background-color: #1c2733;
+  color: white;
+}
+
+.footer-section form button {
+  padding: 10px;
+  background: #24caac;
+  border: 1px solid #24caac;
+  transition: 0.3s;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 90%;
+  color: #fff;
+  font-weight: 900;
+}
+
+.footer-section form button:hover {
+  background: transparent;
+  color: #fff;
 }
