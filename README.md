@@ -14,5 +14,5 @@
 ### İletişim  
 ![İletişim](https://github.com/Orhngn/NewPortfolio/blob/main/contact.png)
 ### Footer 
-![Footer]/(https://github.com/Orhngn/NewPortfolio/blob/main/footer.png)
+![Footer](https://github.com/Orhngn/NewPortfolio/blob/main/footer.png)
 
