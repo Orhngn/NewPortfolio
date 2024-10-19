@@ -11,4 +11,8 @@
 ![Başarılar](https://github.com/Orhngn/NewPortfolio/blob/main/achivement.png)
 ### Hakkımda
 ![Hakkımda](https://github.com/Orhngn/NewPortfolio/blob/main/about.png)
+### İletişim  
+![İletişim](https://github.com/Orhngn/NewPortfolio/blob/main/contact.png)
+### Footer 
+![Footer](https://github.com/Orhngn/NewPortfolio/blob/main/footer.png)
 
